@@ -1,0 +1,119 @@
+<!-- <!DOCTYPE html> -->
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Connect4</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+    </style>
+</head>
+
+<body>
+<div class="header">
+    <h1>Connect 4</h1>
+    <p>Play against an AI!</p>
+</div>
+<br>
+<p id="TurnAlert"> Hello</p>
+<!--   <div class="board"> -->
+<div class="front">
+<!--     Column 1  -->
+    <div class="grid">
+    <div class="column" id="0">
+        <div class="piece circle" id="00"> </div>
+        <div class="piece circle" id="01"> </div>
+        <div class="piece circle" id="02"> </div>
+        <div class="piece circle" id="03"> </div>
+        <div class="piece circle" id="04"> </div>
+        <div class="piece circle" id="05"> </div>
+        <div class="piece circle" id="06"> </div>
+    </div>
+    <!--     Column 2 -->
+      <div class="column" id="1">
+          <div class="piece circle" id="10"> </div>
+          <div class="piece circle" id="11"> </div>
+          <div class="piece circle" id="12"> </div>
+          <div class="piece circle" id="13"> </div>
+          <div class="piece circle" id="14"> </div>
+          <div class="piece circle" id="15"> </div>
+          <div class="piece circle" id="16"> </div>
+      </div>
+    <!--     Column 3 -->
+      <div class="column" id="2">
+          <div class="piece circle" id="20"> </div>
+          <div class="piece circle" id="21"> </div>
+          <div class="piece circle" id="22"> </div>
+          <div class="piece circle" id="23"> </div>
+          <div class="piece circle" id="24"> </div>
+          <div class="piece circle" id="25"> </div>
+          <div class="piece circle" id="26"> </div>
+      </div>
+<!--     Column 4 -->
+      <div class="column" id="3">
+          <div class="piece circle" id="30"> </div>
+          <div class="piece circle" id="31"> </div>
+          <div class="piece circle" id="32"> </div>
+          <div class="piece circle" id="33"> </div>
+          <div class="piece circle" id="34"> </div>
+          <div class="piece circle" id="35"> </div>
+          <div class="piece circle" id="36"> </div>
+      </div>
+<!--     Column 5 -->
+      <div class="column" id="4">
+          <div class="piece circle" id="40"> </div>
+          <div class="piece circle" id="41"> </div>
+          <div class="piece circle" id="42"> </div>
+          <div class="piece circle" id="43"> </div>
+          <div class="piece circle" id="44"> </div>
+          <div class="piece circle" id="45"> </div>
+          <div class="piece circle" id="46"> </div>
+      </div>
+<!--     Column 6 -->
+      <div class="column" id="5">
+          <div class="piece circle" id="50"> </div>
+          <div class="piece circle" id="51"> </div>
+          <div class="piece circle" id="52"> </div>
+          <div class="piece circle" id="53"> </div>
+          <div class="piece circle" id="54"> </div>
+          <div class="piece circle" id="55"> </div>
+          <div class="piece circle" id="56"> </div>
+      </div>
+<!--     Column 7 -->
+      <div class="column" id="6">
+          <div class="piece circle" id="60"> </div>
+          <div class="piece circle" id="61"> </div>
+          <div class="piece circle" id="62"> </div>
+          <div class="piece circle" id="63"> </div>
+          <div class="piece circle" id="64"> </div>
+          <div class="piece circle" id="65"> </div>
+          <div class="piece circle" id="66"> </div>
+      </div>
+<!-- Top right -->
+
+    </div>
+    
+<!--   </div> -->
+
+</div>
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class='title' id="modalWords">text</p>
+        <p class='subtitle' id="stats">text</p>
+    </div>
+
+</div>
+  <button id="reload" type="reset" onclick="location.reload()">New Game</button>
+  <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
